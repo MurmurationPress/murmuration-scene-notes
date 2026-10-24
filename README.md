@@ -2,7 +2,7 @@
 
 A small, standalone Obsidian plugin: an editable **Scene Notes** sidebar follows the Markdown document you are writing. Planning text lives in ordinary Markdown sidecars, not in the manuscript. No MWC dependency, classification metadata, AI, publishing or manuscript insertion.
 
-Version 0.1.0 is a first implementation **awaiting Ted’s acceptance**. The original project brief is preserved in [docs/BRIEF.md](docs/BRIEF.md); [RESULTS.md](RESULTS.md) separates automated tests, actual Obsidian observations and limitations. Ted selected the **MIT licence** in repository commit `8e81f516167b27bb9ce0511210a31c91d4515ae6` during implementation. [LICENSE](LICENSE) covers original software/technical documentation; [LICENSING.md](LICENSING.md) preserves separate creative-content and third-party rights. This task follows that decision and publishes no release.
+Ted accepts the tested desktop experience in version 0.1.0: **“Working really nicely.”** This is not mobile acceptance or exhaustive feature/platform coverage. The original project brief is preserved in [docs/BRIEF.md](docs/BRIEF.md); [RESULTS.md](RESULTS.md) separates automated tests, actual Obsidian observations and limitations. Ted selected the **MIT licence** in repository commit `8e81f516167b27bb9ce0511210a31c91d4515ae6` during implementation. [LICENSE](LICENSE) covers original software/technical documentation; [LICENSING.md](LICENSING.md) preserves separate creative-content and third-party rights. This task follows that decision and publishes no release.
 
 ## Install the local test build
 
@@ -77,4 +77,4 @@ npm run package
 - Restart Obsidian: one sidebar, correct source and saved content. Try a narrow sidebar, non-Markdown tabs and multiple panes.
 - Confirm source text/frontmatter is unchanged. Disable the plugin and read the sidecars normally.
 
-Nothing is merged or released by this implementation task. See RESULTS for checks actually performed rather than treating this checklist as evidence.
+No release is published by the integration task. See RESULTS for acceptance and checks actually performed rather than treating this regression checklist as exhaustive evidence.

@@ -1,3 +1,37 @@
+# PR #1 final review and desktop acceptance
+
+Ted tested Scene Notes 0.1.0 at `db4692bed89ecb770722705d194154cdf43061ac`
+and reports **“Working really nicely.”** This records acceptance of that tested
+desktop experience only, without inferring mobile acceptance, exhaustive coverage
+or acceptance of unsupported migration scenarios. Historical pending wording in
+the original report below is superseded by this record.
+
+Final review inspected native following/editing and focus isolation, full-path
+mapping/lazy creation, captured serial saves and compare-before-write conflicts,
+rename deduplication/collisions, restoration and source preservation. No material
+runtime defect was found within the accepted v1 scope. This final-review change
+updates records only; runtime source, manifest, styles and dependency versions
+remain identical to the accepted head. No licence terms changed: LICENSE and
+LICENSING.md preserve MIT software/technical-documentation terms and separate
+creative-content/third-party rights.
+
+Fresh local checks: strict typecheck/script syntax, 19 unit tests, production
+build and install ZIP inspection. Fresh native checks are recorded in
+`docs/evidence/final-review-standalone.json` and
+`docs/evidence/final-review-with-mwc.json`, separately from the original run.
+They use only disposable synthetic vaults/profiles. Original db4692b evidence
+remains applicable to identical runtime; new runs do not imply untested devices
+or exhaustive third-party plugin compatibility. GitHub CI is inspected separately;
+local passes are not absent CI passes.
+
+Remaining limits are unchanged: mobile and other platforms, offline/delete-create
+rename inference, manual sidecar/root migration and moving a notes root with a
+containing source folder are not verified/supported here. Cross-device conflict
+merging and older API versions are not qualified. The old early-startup timeout
+is not erased; fresh startup/restart observations cannot certify every workspace.
+
+---
+
 # Scene Notes 0.1.0 — first implementation
 
 **Status: awaiting Ted’s acceptance.** Original repository head was

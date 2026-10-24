@@ -1,0 +1,74 @@
+{
+  "method": "Actual Obsidian on Linux in a disposable synthetic vault; public Editor API plus CDP input/DOM observation",
+  "checks": [
+    "lazy first edit through native editor creates exact mirrored Markdown sidecar and binds native file context without following the notes",
+    "two same-basename sources switch correctly; notes focus retains source",
+    "rapid source switches during native edits preserve each sidecar independently",
+    "native selection and scroll retained when revisiting a scene",
+    "source file rename and folder move relocate sidecars without source text changes",
+    "rename collision preserves both files and visibly reports retained exception association",
+    "underlying normal Markdown editor saves, panel refreshes and keeps its manuscript association",
+    "actual external filesystem writes refresh the clean panel through Obsidian vault events",
+    "injected slow-save checkpoint plus actual external write preserves both versions; confirmation Cancel retains draft, explicit reload resolves",
+    "non-Markdown tab retains most recent source",
+    "deleting a source leaves its notes intact",
+    "closing during a native edit flushes the bound draft; Open command reuses one restored panel with saved text",
+    "configured root creates lazily; old notes and their exclusions/associations remain intact",
+    "cold restart restores one sidebar and the saved collision association through workspace state"
+  ],
+  "unverified": [
+    "actual mobile/iPad",
+    "Windows/macOS",
+    "physical keyboard/touch",
+    "assistive technology"
+  ],
+  "artifacts": {
+    "main.js": "c2fd34d52feec88059e01aa5432ba971e87817e271e12bccd18928e8e5ad6d12",
+    "manifest.json": "3586419e2cdb2c177f2fb6b35c130e0b59bd5598ec8694e6d1b41f68de27a13e",
+    "styles.css": "4fdab7bf84df6863e395de705fdd12d8632325b860f6a9a5ec6f759cdd46a333"
+  },
+  "MWC": false,
+  "position": {
+    "position": {
+      "selections": [
+        {
+          "anchor": {
+            "line": 4,
+            "ch": 2
+          },
+          "head": {
+            "line": 4,
+            "ch": 8
+          }
+        }
+      ],
+      "top": 166
+    },
+    "restored": {
+      "selections": [
+        {
+          "anchor": {
+            "line": 4,
+            "ch": 2
+          },
+          "head": {
+            "line": 4,
+            "ch": 8
+          }
+        }
+      ],
+      "top": 166
+    }
+  },
+  "deletion": {
+    "source": "Other/Collision.md",
+    "status": "Saved · Scene Notes/Other/One.md",
+    "active": "Other/Collision.md"
+  },
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.13.7 Chrome/150.0.7871.212 Electron/43.3.0 Safari/537.36",
+  "narrow": {
+    "width": 300,
+    "overflow": 0
+  },
+  "exceptions": []
+}
