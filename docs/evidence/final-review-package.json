@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0",
+  "zip": "murmuration-scene-notes-0.1.0.zip",
+  "SHA256": "30fd8f678b1eaf59843cd7d26058eb0a22acd05d567e1e6ded9db25ae6eaaa65",
+  "bytes": 9826,
+  "entries": [
+    "murmuration-scene-notes/",
+    "murmuration-scene-notes/manifest.json",
+    "murmuration-scene-notes/LICENSE",
+    "murmuration-scene-notes/main.js",
+    "murmuration-scene-notes/styles.css",
+    "murmuration-scene-notes/LICENSING.md"
+  ],
+  "runtimeMatchesAcceptedHeadAndFreshNativeInstalls": true,
+  "licencesUnchanged": true,
+  "privateMaterialIncluded": false,
+  "GitHubCI": {
+    "workflows": 0,
+    "localResultsAreNotCI": true
+  }
+}

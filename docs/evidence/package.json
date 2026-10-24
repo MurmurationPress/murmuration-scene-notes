@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0",
+  "zip": "murmuration-scene-notes-0.1.0.zip",
+  "bytes": 9826,
+  "SHA256": "1dc17f045e9d8f2c498c4448dcb249d8aa570870c6722e6461a4d8c77e04156e",
+  "entries": [
+    "murmuration-scene-notes/",
+    "murmuration-scene-notes/manifest.json",
+    "murmuration-scene-notes/LICENSE",
+    "murmuration-scene-notes/main.js",
+    "murmuration-scene-notes/styles.css",
+    "murmuration-scene-notes/LICENSING.md"
+  ],
+  "runtimeMatchesBothNativeInstallations": true,
+  "runtimeDependencies": [
+    "obsidian (provided by host, external)"
+  ],
+  "developmentDependenciesBundled": false,
+  "privateMaterialIncluded": false,
+  "licence": "MIT for software/technical documentation, with separate creative-content/third-party rights, as selected by Ted in 8e81f516167b27bb9ce0511210a31c91d4515ae6. LICENSE and LICENSING.md are included unchanged."
+}

@@ -1,0 +1,12 @@
+/* Scope all additions to our view; the writing surface is native Markdown. */
+.scene-notes { display: flex; flex-direction: column; padding: 0; }
+.scene-notes-banner { flex: none; padding: .75rem; border-bottom: 1px solid var(--background-modifier-border); font-size: var(--font-ui-small); }
+.scene-notes-source { margin: .35rem 0; overflow-wrap: anywhere; color: var(--text-normal); }
+.scene-notes-status { margin-top: .5rem; color: var(--text-muted); overflow-wrap: anywhere; }
+.scene-notes-banner button { margin: .2rem .3rem .2rem 0; white-space: normal; height: auto; min-height: 2rem; }
+.scene-notes-recovery[hidden] { display: none; }
+.scene-notes > .markdown-source-view, .scene-notes > .markdown-reading-view { flex: 1; min-height: 8rem; }
+.scene-notes .cm-scroller { overflow-wrap: anywhere; }
+.scene-notes-no-source > .markdown-source-view { visibility: hidden; }
+
+.scene-notes-loading > .markdown-source-view, .scene-notes-loading > .markdown-reading-view { visibility: hidden; }

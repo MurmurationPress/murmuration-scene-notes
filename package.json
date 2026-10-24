@@ -1,0 +1,26 @@
+{
+  "name": "murmuration-scene-notes",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone scene planning sidecars for Obsidian.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsc -p tsconfig.test.json && node --test .test-build/test/*.test.js",
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch",
+    "package": "npm run typecheck && npm run build && node scripts/package.mjs",
+    "check": "npm run typecheck && node --check scripts/build.mjs && node --check scripts/package.mjs && node --check scripts/native-smoke.mjs",
+    "test:native": "node scripts/native-smoke.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.15",
+    "esbuild": "0.28.2",
+    "obsidian": "1.14.4",
+    "typescript": "5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MurmurationPress/murmuration-scene-notes.git"
+  },
+  "license": "MIT"
+}
