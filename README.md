@@ -58,4 +58,4 @@ Existing planning material in PrimeTrilogy must remain untouched until a separat
 
 ## Development handoff
 
-Once the current Codex task is finished, implement this brief on a feature branch, open a reviewable PR and provide an installable test build with a short acceptance checklist. Leave the implementation PR unmerged for Ted's acceptance. No licence has been selected yet; do not choose one implicitly.
+Once the current Codex task is finished, implement this brief on a feature branch, open a reviewable PR and provide an installable test build with a short acceptance checklist. Leave the implementation PR unmerged for Ted's acceptance. Ted selected the MIT licence on 24 October 2026. The software and technical documentation are [MIT licensed](LICENSE); creative content and third-party material retain their separate rights. See [licence scope](LICENSING.md).
